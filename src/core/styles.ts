@@ -285,7 +285,7 @@ export function generateStyles(config?: StylesConfig): string {
   // Master styles
   const masterStyles = el("office:master-styles");
   const masterPage = el("style:master-page")
-    .attr("style:name", "Default")
+    .attr("style:name", "Standard")
     .attr("style:page-layout-name", "pm1");
 
   // Header content
